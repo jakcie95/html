@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <table border="1">
+      <tr>
+         <td colspan="2">
+            다음 내용에 맞게 입력 하시오<br>
+            전공 분야를 입력하세요
+            <select>
+               <option>소프트웨어
+               <option>소프트웨어11
+            </select>
+         </td> 
+         <td rowspan="2">
+            <img src="img.jpg" width="150px" height="150px">
+         </td>
+      </tr>
+      <tr>
+         <td>이름<p>아이디</p>비밀번호</td> 
+         <td>
+            <input type="text">
+            <p><input type="text"></p>
+            <input type="text">
+         </td> 
+      </tr>
+      <tr>
+         <td colspan="3">
+         <fieldset style="width: 400px;">
+		<legend>성별 조사</legend>
+		여성<input type="radio" value="10" name="s">
+		남성<input type="radio" value="20" name="s">
+		</fieldset>
+		<fieldset style="width: 400px;">
+	<legend>취미 조사</legend>
+		책읽기<input type="checkbox">
+		공부하기<input type="checkbox">
+		책읽으며 공부하기<input type="checkbox">
+		컴퓨터<input type="checkbox">
+	</fieldset>
+	<fieldset style="width: 400px;">
+	<legend>하고싶은 말</legend>
+	<textarea rows="3" cols="50"></textarea>
+	</fieldset>
+      </tr>
+   </table>
+   <form action="회사소개.html" method="post">
+   <input type="submit" value="완료">
+   <input type="reset" value="다시작성">
+   </form>
+</body>
+</html>
