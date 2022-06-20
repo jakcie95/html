@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+nav ul{list-style: none; display:flex;
+		justify-content: flex-end;}
+nav ul li{ background-color: black;
+					/* 위 오 아 왼쪽, 하나만 쓰면 4군데 다 적용*/
+			padding: 10px;
+			margin: 0 3px;/*위아래, 왼오른쪽*/
+			}*/
+nav ul ul li a { text-decoration: none; color: white; }
+nav ul li a:hover{
+	color: orange;
+	padding-bottom: 3px;
+	border-bottom: 3px dotted white;
+	transition: all 0.25s;
+}
+div { background-color: blue; heigh: 100px;
+	overflow: hidden; 
+	}
+div div {background-color: red; height: 200px;
+								width:200px;}
+</style>
+</head>
+<body>
+	
+	<div>
+		hello
+		<div>
+			css
+		</div>
+	</div>
+	<hr>
+	<nav style="background-color: black;">
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">BOARD</a></li>
+		<li><a href="#">MEMBER_SHIP</a></li>
+	</ul>
+	</nav>
+</body>
+</html>
